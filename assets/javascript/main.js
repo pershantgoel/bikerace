@@ -15,7 +15,7 @@ $(document).ready(function(){
         autoplayTimeout:1000,  
   });
     
-     
+     new WOW().init();
         
 });
 

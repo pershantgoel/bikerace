@@ -11,9 +11,17 @@ body{
     width: 100%;
     z-index: 1000;
 }
-.preload_img {
+#preload_img {
     text-align: center;
+    width: 100%;
+    position: relative;
 }
+#preload_img img{
+    position: absolute;
+    top: 200px;
+    left: 30%;
+}
+
 .row{
     margin: 0px;
 }
